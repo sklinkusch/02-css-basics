@@ -1,0 +1,105 @@
+/* clear margins and paddings on startup */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* change background color */
+body {
+  background-color: lightcyan;
+}
+
+/* style declarations for the main semantic elements (header, main, footer) */
+
+header, main, footer {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+header {
+  border-bottom: 2px solid grey;
+  margin-top: 20px;
+}
+
+footer {
+  border-top: 2px solid grey;
+  padding-top: 5px;
+}
+
+/* navigation */
+nav {
+  margin-bottom: 20px;
+}
+nav ul {
+  text-align: right;
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: darkslategray;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1pt solid black;
+  background: grey;
+  margin-left: 15px;
+  padding: 10px 20px;
+}
+
+/* clear floating after the navigation */
+.clearfix {
+  clear: both;
+}
+
+/* some elements of the main content */
+main ul {
+  list-style-position: inside;
+}
+
+h1, h2 {
+  margin: 10px 0px;
+}
+
+article {
+  padding-bottom: 5px;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+main > p {
+  padding-bottom: 5px;
+}
+
+section.about {
+  float: left;
+}
+
+section.img {
+  margin-top: 20px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+section.img img {
+  width: 200px;
+}
+/* some elements of the footer */
+
+.copyright {
+  float: left;
+}
+
+.links {
+  float: right;
+}
