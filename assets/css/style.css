@@ -6,7 +6,7 @@
 
 /* change background color */
 body {
-  background-color: lightcyan;
+  background-color: cyan;
 }
 
 /* style declarations for the main semantic elements (header, main, footer) */
@@ -26,9 +26,20 @@ footer {
   padding-top: 5px;
 }
 
+/* Title */
+.name {
+  float: left;
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
 /* navigation */
 nav {
   margin-bottom: 20px;
+  float: right;
 }
 nav ul {
   text-align: right;
@@ -83,6 +94,7 @@ main > p {
 
 section.about {
   float: left;
+  width: 70%;
 }
 
 section.img {
@@ -93,6 +105,15 @@ section.img {
 
 section.img img {
   width: 200px;
+}
+
+dt {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+dd {
+  margin-left: 20px;
 }
 /* some elements of the footer */
 
